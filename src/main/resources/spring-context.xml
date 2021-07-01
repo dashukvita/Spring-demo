@@ -8,6 +8,7 @@
         <property name="message" value="L'll be back"/>
     </bean>
 
+    <bean class="quoters.DeprecetionHandlerBeanFactoryPostProcessor"/>
     <bean class="quoters.PostProxyInvokerContextListener"/>
     <bean class="quoters.ProfilingHandlerBeanPostProcessor"/>
     <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
